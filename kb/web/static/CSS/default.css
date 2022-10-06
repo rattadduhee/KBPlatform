@@ -6026,7 +6026,7 @@ section.u-image:not(.u-hover-box),
     width: var(--theme-sheet-width-xxl) !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .u-xl-mode .u-sheet {
     width: var(--theme-sheet-width-xl) !important;
   }
@@ -11346,7 +11346,9 @@ section.u-image:not(.u-hover-box),
 .u-stick-footer .u-footer {
   margin-top: auto;
 }
-.u-hide-header .u-header,
+.u-hide-header .u-header{
+  width: 100%;
+}
 .u-hide-footer .u-footer {
   display: none;
 }
@@ -38274,6 +38276,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
+  
   background-image: none;
 }
 
