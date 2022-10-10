@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 1067px;
+  height: 1500px;
 }
 
 .u-section-1 .u-text-1 {
@@ -13,11 +13,11 @@
   font-family: ONEMobileTitle;
   font-weight: 400;
   font-size: 2rem;
-  margin: 70px 181px 0 auto;
+  margin: 0 181px 0 auto;
 }
 
 .u-section-1 .u-btn-1 {
-  margin: 795px auto 38px;
+  margin: 15px auto 38px;
 }
 
 @media (max-width: 767px) {
@@ -27,6 +27,12 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    height: 1000px;
+  }
+  .u-section-1 .u-btn-1 {
+    top: 500px;
+  }
   .u-section-1 .u-text-2 {
     margin-right: 86px;
   }

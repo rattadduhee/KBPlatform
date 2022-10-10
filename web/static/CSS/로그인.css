@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 500px;
+  height: 400px;
 }
 
 .u-section-1 .u-form-1 {
@@ -25,12 +25,6 @@
   border-style: none none solid;
   margin: 37px auto 60px;
   padding: 0;
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-form-1 {
-    width: 540px;
-  }
 }
 
 @media (max-width: 575px) {

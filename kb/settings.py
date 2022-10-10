@@ -26,6 +26,7 @@ SECRET_KEY = "django-insecure-0=5yz7_)74p!#!d(en4(zzpdidbgdcqr)pti49h5u90#mljud=
 DEBUG = True
 
 ALLOWED_HOSTS = []
+AUTH_USER_MODEL = 'web.User'
 
 
 # Application definition
@@ -100,11 +101,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
-
-USE_TZ = True
+USE_TZ = False
+USE_L10N = True
 
 import os
 # Static files (CSS, JavaScript, Images)
@@ -126,3 +127,6 @@ TEMPLATE_DIRS = (
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
